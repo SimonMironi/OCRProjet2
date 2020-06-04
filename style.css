@@ -33,6 +33,12 @@ body {
       margin-bottom: 10px;
       margin-top: 50px;
       border-bottom: 2px solid #fce758;
+      padding-bottom: 5px;
+  }
+  h2 img{
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
   }
   .outline_text {
       font-weight: 200;
@@ -49,7 +55,7 @@ body {
       font-size: 18px;
       margin: 0px;
       
-      text-align: center;
+      text-align: left;
   }
   h4 {
       color: #fce758;
@@ -85,6 +91,9 @@ body {
   .presentation {
       margin-top: 40px;
   }
+  .presentation p{
+    font-size: 20px;
+}
   .contact {
       width: 70%;
       height: auto;
@@ -147,6 +156,15 @@ body {
       margin-left: auto;
       margin-right: auto;
   }
+  .hobbies_div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .hobbie img{
+      height: 80px;
+      width: auto;
+  }
   .img_width{
       width: 70px;
   }
@@ -179,55 +197,45 @@ body {
       justify-content: space-around;
       width: 75% !important;
   }
+  .date_ville{
+      display: flex;
+      flex-direction: row;
+  }
+  .dot{
+      border: solid 2px #fce758;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+  }
+  .dot_transp{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+  .dot2{
+    background: #fce758;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 2px;
+  }
+  .innerdot{
+    background: #fce758;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+  }
   
-  .programmes_languages {
-      margin-top: 40px; 
-      padding-left: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content: start;
-  }
-  .programme_row {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 10px;
-  }
-  .programme_row p {
-      margin-left: 25px;
-      margin-top: auto;
-      margin-bottom: auto;
-      width: 200px;
-  }
-  .width_prog {
-      width: 50%;
-      height: auto;
-  }
-  img.logo_competences {
-      height: 30px;
-      width: auto;
-      display: block;
-      margin-left: 0px;
-  }
-  .img_width_2
-  {
-      width: 50px;
-      margin-right: 30px;
-  }
-  .pts_prog {
-      height: 20px;
-      margin-top: auto;
-      margin-bottom: auto;
-      padding-bottom: 7px;
-      margin-left: 15px;
-  }
-  .pts {
-      display: flex;
-      flex-direction: row;
-      margin-left: 20px;
-  }
-  .competences {
-      padding-left: 10px;
-  }
   ul {
       padding: 0px;
   }
@@ -238,7 +246,10 @@ body {
       width: fit-content;
       display: flex;
       flex-direction: row;
-      margin-bottom: 10px;
+      justify-content: space-between;
+      margin: 0px;
+      width: 85%;
+      margin-bottom: 20px;
   }
   li p {
       margin-top: auto;
@@ -246,48 +257,38 @@ body {
       width: 150px;
   }
   
-  .formation {
-      margin-top: 40px;
-      padding-left: 10px;
-      border-left: 5px solid black;
+  .formation_pro {
+    margin-top: 20px;
   }
   
-  .formation p{
-      margin-top: -8px;
-      margin-left: 23px; 
+  .formation_pro p{
+    margin-top: 4px;
+    width: 500px;
   }
   
   .formation_block {
-      margin-bottom: -5px;
+     margin-top: -5px;
   }
   .title_formation {
       display: flex;
-      flex-direction: row;
-      margin-left: -28px;
-  }
-  .title_formation img {
-      height: 30px;
-      width: auto;
-      margin-right: 20px;
+      flex-direction: column;
+      margin-left: 0;
   }
   
   .experience_pro {
-      margin-top: 40px;
-      margin-bottom: 40px;
-      border-left: 5px solid black; 
-      padding-left: 20px;
-  }
-  
-  .experience img {
-      height: 30px;
-      width: auto;
-      margin-right: 20px;
-      margin-left: -10px;
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
   }
   
   .experience p {
       margin-top: auto;
       margin-bottom: auto;
+      margin-bottom: 15px;
       width: fit-content;
   }
   
@@ -302,6 +303,7 @@ body {
   .last_div {
       width: 40%;
   } 
+
 
   /*------------------RESPONSIVE--------------------*/
 
