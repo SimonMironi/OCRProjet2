@@ -8,7 +8,7 @@ body {
   
   section.topbar {
     background-color: #fce758;
-    width: 30%;
+    width: 35%;
     height: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -63,6 +63,7 @@ body {
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
       font-size: 20px;
+      margin-bottom: 40px;
   }
   a {
       text-decoration: none;
@@ -248,13 +249,13 @@ body {
       flex-direction: row;
       justify-content: space-between;
       margin: 0px;
-      width: 85%;
+      width: 65%;
       margin-bottom: 20px;
   }
   li p {
       margin-top: auto;
       margin-bottom: auto;
-      width: 150px;
+      width: 100%;
   }
   
   .formation_pro {
@@ -263,7 +264,6 @@ body {
   
   .formation_pro p{
     margin-top: 4px;
-    width: 500px;
   }
   
   .formation_block {
@@ -280,9 +280,8 @@ body {
       flex-direction: row;
       width: 60%;
       justify-content: space-between;
-      margin-left: auto;
-      margin-right: auto;
       margin-bottom: 100px;
+      margin-top: 30px;
   }
   
   .experience p {
@@ -308,17 +307,37 @@ body {
   /*------------------RESPONSIVE--------------------*/
 
 @media only screen and (max-width: 767px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+    }
+    .date_ville {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        margin-right: 10px;
+    }
+    .experience_pro {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
 	p {
 		font-size: 15px;
 		width: 90%;
     	margin: auto;
 	}
 	h1 {
-		font-size: 30px;
-		}
+		font-size: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+	}
 	h2 {
-		font-size: 20px;
-		margin-top: 20px;
+		font-size: 18px;
+		margin-top: 40px;
 		margin-bottom: -10px;
 	}
 	h3 {
@@ -335,10 +354,12 @@ body {
 		width: 100%;
 	}
 	.center_div {
-		padding: 10px;
+        padding: 10px;
+        width: 100%;
 	}
 	li {
-		font-size: 15px;
+        font-size: 15px;
+        width: 100%;
 	}
 	.title_formation img {
 		height: 13px;
@@ -368,7 +389,8 @@ body {
 		width: fit-content;
 	}
 	.contact {
-		width: fit-content;
+        width: fit-content;
+        margin-left: 30px;
 	}
 	.formation {
 		border-left: 5px solid black;
@@ -387,7 +409,13 @@ body {
 		font-weight: 800;
 		font-size: 8px;
 		margin-left: -1.5px;
-	}
+    }
+    section.center_div{
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
 	.language_row p {
 		width: 60px;
 	}
@@ -445,7 +473,7 @@ body {
 		margin-top: -50px;
 	}
 	.hobbies_div {
-		width: fit-content;
+		width: 100%;
 	}
 	.img_width img {
 		height: 15px;
