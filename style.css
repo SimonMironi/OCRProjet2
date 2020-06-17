@@ -18,6 +18,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
   }
+  .date_ville p{
+     min-width: 110px;
+  }
   h1{
       font-family: 'Poppins', sans-serif;
       font-size: 80px;
@@ -205,7 +208,7 @@ body {
   .dot{
       border: solid 2px #fce758;
       height: 15px;
-      width: 22px;
+      width: 19px;
       border-radius: 50%;
       margin-right: 10px;
       display: flex;
@@ -216,6 +219,7 @@ body {
     width: 15px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-left: 6px;
     display: flex;
     justify-content: center;
 }
@@ -263,7 +267,7 @@ body {
   }
   
   .formation_pro p{
-    margin-top: 4px;
+    margin-top: -3px;
   }
   
   .formation_block {
