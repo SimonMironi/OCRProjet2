@@ -316,6 +316,9 @@ body {
         margin: 0;
         width: 100% !important;
     }
+    .date_ville p {
+        min-width: 20px;
+    }
     .date_ville {
         display: flex;
         flex-direction: row;
